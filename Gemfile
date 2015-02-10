@@ -22,6 +22,7 @@ end
 group :test do
   gem 'capybara', '~> 2.1.0'
   gem 'spring'
+  gem 'shoulda-matchers', '~> 2.8.0'
 end
 
 group :production do
